@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Mamba Fusion: Learning Actions Through Questioning</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,20 +52,21 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Mamba Fusion: Learning Actions Through Questioning</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://apoorvabeedu.github.io" target="_blank">Apoorva Beedu</a><sup>*&Dagger;</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://scholar.google.com/citations?user=Ot5mZs0AAAAJ&hl=en" target="_blank">Zhikang Dong</a><sup>*&Dagger;&dagger;</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="https://www.google.com/search?client=safari&rls=en&q=Jason+Sheinkopf&ie=UTF-8&oe=UTF-8" target="_blank">Jason Sheinkopf</a><sup>&Dagger;</sup></span>,
+                  <span class="author-block">
+                    <a href="https://www.irfanessa.gatech.edu" target="_blank">Irfan Essa</a><sup>&Dagger;&sect;</sup></span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block">Georgia Institute of Technology<sup>&Dagger;</sup>, Stony Brook University<sup>&dagger;</sup>, Google Research<sup>&sect;</sup> <br>ICASSP 2025</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -73,7 +74,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888933" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -83,7 +84,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,11 +92,11 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/ApoorvaBeedu/MambaVL" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -106,7 +107,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/pdf/2409.11513" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -124,12 +125,12 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        Your video here -->
+        <!-- <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -137,7 +138,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section>  -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,7 +149,24 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Video Language Models (VLMs) are crucial for general-
+izing across diverse tasks and using language cues to enhance learning.
+While transformer-based architectures have been the de facto in vision-
+language training, they face challenges like quadratic computational
+complexity, high GPU memory usage, and difficulty with long-term
+dependencies. To address these limitations, we introduce MambaVL, a
+novel model that leverages recent advancements in selective state space
+modality fusion to efficiently capture long-range dependencies and learn
+joint representations for vision and language data. MambaVL utilizes a
+shared state transition matrix across both modalities, allowing the model
+to capture a more comprehensive understanding of the actions in the
+scene. Furthermore, we propose a question-answering task that helps
+guide the model toward relevant cues. These questions provide critical
+information about actions, objects, and environmental context, leading
+to enhanced performance. As a result, MambaVL achieves state-of-the-
+art performance in action recognition on the Epic-Kitchens-100 dataset
+and outperforms baseline methods in action anticipation. The code is
+available at https://github.com/Dongzhikang/MambaVL
           </p>
         </div>
       </div>
@@ -157,6 +175,17 @@
 </section>
 <!-- End paper abstract -->
 
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div align="center" class="container">
+      <h2 class="title">Model Overview</h2>
+      <!-- <iframe  src="static/images/MambaVL.pdf" width="75%" height="500">
+          </iframe> -->
+        <img src="static/images/MambaVL.pdf" width="50%" height="250"> 
+        <img src="static/images/algorithm.png" width="32%" height="150">
+      </div>
+    </div>
+  </section>
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -165,33 +194,35 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+         <iframe  src="static/images/MambaVL.pdf" width="75%" height="500">
+          </iframe>
+        <!-- <img src="static/images/MambaVL.pdf" alt="MY ALT TEXT"/> -->
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+      <!-- <div class="item"> -->
+        <!-- Your image here --> 
+        <!-- <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
-      <div class="item">
+      <div class="item"> -->
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <!-- <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
-     <div class="item">
+     <div class="item"> -->
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <!-- <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
       </h2>
-    </div>
-  </div>
+    </div>-->
+  </div> 
 </div>
 </div>
 </section>
@@ -201,53 +232,53 @@
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container"> -->
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <!-- <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <div class="publication-video">
+          <div class="publication-video"> -->
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End youtube video -->
 
 
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+    <div  align="center" class="container">
+      <h2 class="title is-3">Video</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
+          <video poster="" id="video1" autoplay controls muted loop width="75%">
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            <source src="static/videos/mambaFusion.mp4"
             type="video/mp4">
           </video>
         </div>
-        <div class="item item-video2">
+        <!-- <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+            Your video file here
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
-        </div>
-        <div class="item item-video3">
+        </div> -->
+        <!-- <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
+            Your video file here
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -262,12 +293,10 @@
 <!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div align="center" class="container">
       <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/mambaFusion.pdf" width="75%" height="500">
           </iframe>
-        
       </div>
     </div>
   </section>
@@ -278,7 +307,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@inproceedings{beedu2025mamba,
+  title={Mamba Fusion: Learning Actions Through Questioning},
+  author={Beedu, Apoorva and Dong, Zhikang and Sheinkopf, Jason and Essa, Irfan},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
